@@ -7,9 +7,9 @@ window.addEventListener("scroll", () => {
         document.querySelector("#navbar").style.top = "0";
     }
     ;});
-    window.addEventListener("scroll", function (e) {
-        console.log(window.scrollY);
-      });
+    // window.addEventListener("scroll", function (e) {
+    //     console.log(window.scrollY);
+    //   });
       
       // Event listener "scroll" sur window
       
