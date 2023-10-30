@@ -1,10 +1,10 @@
-let preScrollbar = window.scrollY;
+let preScrollbar = 0;
 window.addEventListener("scroll", () => {
    const scrollbar = window.scrollY;
     if(scrollbar > preScrollbar) {
         document.querySelector("#navbar").style.top = "-60px";
     } else {
-        document.querySelector("#navbar").style.top = "0";
+        document.querySelector("#navbar").style.top = "0px";
     }
     ;});
     // window.addEventListener("scroll", function (e) {
